@@ -6,13 +6,13 @@
 Записывают все это в протоколы.
 Существует итоговый протокол.
 
-Значит у нас будут следующие классы:
-Сhampionship (Чемпионат)
-Participant (Участник соревнований)
-PairParticipant (Пара, состоящая из участников)
-Сompetition (Соревнование)
-Judge (Судья)
-JudgeProtocol (Судейский протокол)
+1. Значит у нас будут следующие классы:
+* Сhampionship (Чемпионат)
+* Participant (Участник соревнований)
+* PairParticipant (Пара, состоящая из участников)
+* Сompetition (Соревнование)
+* Judge (Судья)
+* JudgeProtocol (Судейский протокол)
 Начнем с простых классов:
 1. Private class Participant (Участник соревнований) содержит поля: 
     * name: string
@@ -40,5 +40,5 @@ JudgeProtocol (Судейский протокол)
     * pairsParticipant: список (не массив) типа PairParticipant
     * judges:  массив типа Judge
     * competitions: массив типа Judge
-    *j udgesProtocol: список (не массив) типа JudgeProtocol
+    * judgesProtocol: список (не массив) типа JudgeProtocol
  

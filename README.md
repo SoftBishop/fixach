@@ -15,8 +15,8 @@ Judge (Судья)
 JudgeProtocol (Судейский протокол)
 Начнем с простых классов:
 Private class Participant (Участник соревнований) содержит поля: 
-    *name: string
-    *surname: string
+    * name: string
+    * surname: string
 
 Public class PairParticipant (Пара, состоящая из участников) содержит поля: 
     *participantFirst: Participant

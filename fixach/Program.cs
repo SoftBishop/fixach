@@ -10,6 +10,7 @@ namespace fixach
     {
         static void Main(string[] args)
             ///iohkigujyrtjutu
+            /// /e/rtet
         {
         }
     }

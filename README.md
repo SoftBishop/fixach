@@ -15,6 +15,7 @@
 * JudgeProtocol (Судейский протокол)
 
 Начнем с простых классов:
+
 1. Private class Participant (Участник соревнований) содержит поля: 
     * name: string
     * surname: string

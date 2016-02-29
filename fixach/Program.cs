@@ -4,8 +4,8 @@ private class Participant
 {
     static void Main()
     {
-    name string;
-    surname string;
+    string name;
+    string surname;
     }
 }
 
@@ -13,8 +13,8 @@ public class PairParticipant
 {
     static void Main()
     {
-        ParParticipantFirst Participant;
-        ParticipantSecond Participant;
+        PairticipantFirst = new Pairticipant;
+        PairticipantSecond = new Pairticipant;
     }
 }
 
@@ -22,40 +22,28 @@ public class Competition
 {
     static void Main()
     {
-       name string;
-       score int;
+        string name;
+        int score;
     }
 }
 
 public class Judge
 {
-    static void Main()
-    {
-    Judge Judge;
-    pair PairParticipant;
-    Competition Competition;
-    score int;
-
-    }
+    string name;
+    string surname;
 }
 
-public class JudgeProtocol
-{
-    static void Main()
-    {
-    Judge: Judge;
-    pair: PairParticipant;
-    Competition: Competition;
-    score: int;
-    }
+public class JudgeProtocol {
+    Judge = new Judge;
+    PairParticipant = new Pair;
+    Competition = new Competition;
+    int score;
 }
+
+
 public class Championship
 {
-    static void Main()
-    {
-    //pairsParticipant насчет списка хз
-    judges Array[];
-    Competitions Array[];
-        //JudgesProtocol too
-    }
+    
+    Judge[] Judges = new Judges[];
+   // список я могу создать как отдельный класс, list<t> вот это будет явл
 }

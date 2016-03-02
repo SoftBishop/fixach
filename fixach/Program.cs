@@ -11,7 +11,7 @@ private class Participant
 
 public class PairParticipant
 {
-    static void Main()
+  
     {
         PairticipantFirst = new Pairticipant;
         PairticipantSecond = new Pairticipant;
@@ -20,7 +20,7 @@ public class PairParticipant
 
 public class Competition
 {
-    static void Main()
+   
     {
         string name;
         int score;

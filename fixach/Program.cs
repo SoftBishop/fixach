@@ -1,27 +1,28 @@
 ﻿using System;
 
-private class Participant
+public class Participant
 {
-    
-    
     string name;
     string surname;
-    
+    string Myname(get; set);  
 }
+
 
 public class PairParticipant
 {
         PairticipantFirst = new Pairticipant;
-        PairticipantSecond = new Pairticipant;
-    
+        PairticipantSecond = new Pairticipant;  
 }
+
+
 
 public class Competition
 {
-    string name;
+        string name;
         int score;
-   
 }
+
+
 
 public class Judge
 {

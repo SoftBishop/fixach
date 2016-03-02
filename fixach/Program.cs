@@ -3,10 +3,10 @@
 private class Participant
 {
     
-    {
+    
     string name;
     string surname;
-    }
+    
 }
 
 public class PairParticipant
@@ -18,11 +18,9 @@ public class PairParticipant
 
 public class Competition
 {
-   
-    {
-        string name;
+    string name;
         int score;
-    }
+   
 }
 
 public class Judge
@@ -30,6 +28,8 @@ public class Judge
     string name;
     string surname;
 }
+
+
 
 public class JudgeProtocol {
     Judge = new Judge;

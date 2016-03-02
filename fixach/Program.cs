@@ -2,7 +2,7 @@
 
 private class Participant
 {
-    static void Main()
+    
     {
     string name;
     string surname;
@@ -46,4 +46,9 @@ public class Championship
     
     Judge[] Judges = new Judges[];
    // список я могу создать как отдельный класс, list<t> вот это будет явл
+}
+
+public class Main
+{
+    static void Main()
 }

@@ -11,11 +11,9 @@ private class Participant
 
 public class PairParticipant
 {
-  
-    {
         PairticipantFirst = new Pairticipant;
         PairticipantSecond = new Pairticipant;
-    }
+    
 }
 
 public class Competition
@@ -47,6 +45,7 @@ public class Championship
     Judge[] Judges = new Judges[];
    // список я могу создать как отдельный класс, list<t> вот это будет явл
 }
+
 
 public class Main
 {
